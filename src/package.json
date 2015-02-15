@@ -1,0 +1,27 @@
+{
+  "name": "MIPS",
+  "title": "MIPS Assembly Syntax Highlighter",
+  "version": "1.0.0",
+  "description": "Syntax highlighting support for MIPS assembly files (.s)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naphipps/brackets-mips-syntax-highlighter"
+  },
+  "keywords": [
+    "mips",
+    "syntax",
+    "highlighting"
+  ],
+  "author": "Nathan Phipps",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/naphipps/brackets-mips-syntax-highlighter/issues"
+  },
+  "homepage": "https://github.com/naphipps/brackets-mips-syntax-highlighter",
+  "engines": {
+    "brackets": ">=0.24.0"
+  }
+}
