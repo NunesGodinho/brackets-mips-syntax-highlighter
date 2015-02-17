@@ -3,7 +3,7 @@
 define(function (require, exports, module) {
 	'use strict';
     
-    CodeMirror.defineMode();
+    //CodeMirror.defineMode();
 	var LanguageManager = brackets.getModule("language/LanguageManager"),
         CodeMirror = brackets.getModule("thirdparty/CodeMirror2/lib/codemirror"),
         MIPS_mode = require("mips");

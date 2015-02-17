@@ -26,8 +26,8 @@ CodeMirror.defineMode("mips",function(){
     return obj;
   }
 
-  CodeMirror.defineMIME("application/dart", {
-    name: "clike",
+  /*CodeMirror.defineMIME("application/mips", {
+    name: "mips",
     keywords: set(keywords),
     multiLineStrings: true,
     blockKeywords: set(blockKeywords),
@@ -39,14 +39,14 @@ CodeMirror.defineMode("mips",function(){
         return "meta";
       }
     }
-  });
+  });*/
 
   //CodeMirror.registerHelper("hintWords", "application/dart", keywords.concat(atoms).concat(builtins));
 
   // This is needed to make loading through meta.js work.
   CodeMirror.defineMode("mips", function(conf) {
     return CodeMirror.getMode(conf, "application/mips");
-  }, "clike");
+  }, "mips");
 });
 });
    
