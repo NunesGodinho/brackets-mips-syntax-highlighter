@@ -2,7 +2,11 @@
 
 define(function (require, exports, module) {
 	'use strict';
-	var LanguageManager = brackets.getModule("language/LanguageManager");
+    
+    CodeMirror.defineMode();
+	var LanguageManager = brackets.getModule("language/LanguageManager"),
+        CodeMirror = brackets.getModule("thirdparty/CodeMirror2/lib/codemirror"),
+        MIPS_mode = require("mips");
 	
 	LanguageManager.defineLanguage("MIPS", {
 		name: "MIPS",
