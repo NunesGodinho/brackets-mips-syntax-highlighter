@@ -9,4 +9,4 @@ I can't seem to get this mode thing working quite right.
 
 Also having trouble testing it inside brackets... I just don't know if I'm doing anything right...
 
-#Please let me know if you have any issues, suggestions, or anything of the nature [here.] (https://github.com/naphipps/brackets-mips-syntax-highlighter/issues) Thank you! :D
+#Please let me know if you have any issues, suggestions, or anything of the nature [here] (https://github.com/naphipps/brackets-mips-syntax-highlighter/issues). Thank you! :D
