@@ -3,9 +3,6 @@
   "title": "MIPS Assembly Syntax Highlighter",
   "version": "0.0.1",
   "description": "Syntax highlighting support for MIPS assembly files (.s)",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/naphipps/brackets-mips-syntax-highlighter"
