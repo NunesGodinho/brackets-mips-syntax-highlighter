@@ -13,19 +13,55 @@
 
 CodeMirror.defineMode('mips', function() {
     
-    /*
+    //var DEFINITIONS = ".data";
+    
+    
+    
     return {
         startState: function(){
             return {context: 0};      
         
         },
         token: function(stream, state){
-         return null;   
+            
+            var thisItem;
+            
+            thisItem = stream.current();
+            
+            //if (stream.eatWhile(/\w/){
+                
+            if (stream.eat('#')){
+                stream.skipToEnd();
+                return 'comment';
+            }
+            else if (stream.eat('"')) {
+                while (thisItem = stream.next()) {
+            
+                    if (thisItem == '"'){
+                        break;
+                    }
+                }
+                return 'string';
+                
+            }
+            else if (stream.eat('.')){//&& is a keyword definition
+                if(stream.eatWhile(/\w/)){
+                    return 'def';
+                }
+            }
+            else {            
+                stream.next();
+            }
+            
+            return null;
+            
+            
+            
             
         }
     };
     //*/
-    
+    /*
   var keywords1 = /^(exx?|(ld|cp|in)([di]r?)?|pop|push|ad[cd]|cpl|daa|dec|inc|neg|sbc|sub|and|bit|[cs]cf|x?or|res|set|r[lr]c?a?|r[lr]d|s[lr]a|srl|djnz|nop|rst|[de]i|halt|im|ot[di]r|out[di]?)\b/i;
   var keywords2 = /^(call|j[pr]|ret[in]?)\b/i;
   var keywords3 = /^b_?(call|jump)\b/i;
@@ -90,7 +126,7 @@ CodeMirror.defineMode('mips', function() {
       } else if (stream.eat('\'')) {
         if (stream.match(/\\?.'/))
           return 'number';
-      } else if (stream.eat('.') || stream.sol() && stream.eat(';')) {
+      } else if (stream.eat('.') || stream.sol() && stream.eat('#')) {
         state.context = 4;
 
         if (stream.eatWhile(/\w/))
