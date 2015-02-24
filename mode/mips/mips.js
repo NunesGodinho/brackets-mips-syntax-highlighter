@@ -69,9 +69,6 @@ CodeMirror.defineMode('mips', function() {
                     
                 }
                 
-                /*if(stream.eatWhile(/\w/)){
-                    return 'def';
-                }//*/
             }
             else if(stream.eat('$')){
                 
