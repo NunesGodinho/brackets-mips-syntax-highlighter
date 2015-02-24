@@ -2,7 +2,7 @@
     sandbox 1 ....
 =====================================================================================
 
-/\.([248]?byte|a(ent|lias|lign|scii|sciiz|sm0)|b(gnb|yte)|c(omm|padd|pload|plocal|prestore|preturn|psetup)/
+/\.([248]?byte|a(ent|lias|lign|scii|sciiz|sm0)?|b(gnb|yte)|c(omm|padd|pload|plocal|prestore|preturn|psetup)/
 
 /\.([248]?byte)/
 
@@ -15,6 +15,8 @@
 =====================================================================================
     sandbox 2 ....
 =====================================================================================
+
+\.([248]?byte|a(ent|lias|lign|sciiz|scii|sm0)|b(gnb)|c(omm|app|padd|pload|plocal|prestore|preturn|psetup)|d(ouble|word)|e(ndr|ndb|nd|nt|xtern|rr)|f(ile|loat|mask|rame)|g(jaldef|jallive|jrlive|pword)|h(alf)|l(ab|comm|ivereg|oc)|m(ask)|n(ada|oalias|op)|o(ption|rigin)|r(epeat|data)|s(data|ection|et|ize|pace|truct))
 
 
 abs|add|addi|addiu|addu|and|andi|b|bczt|bczf|beq|beqz|bge|bgez|bgeu|bgezal|bgt|bgtu|bgtz|ble|bleu|blez|blt|bltu|bnez|bltzal|bltz|bne|bqez|div|divu|eret|j|jal|jr|la|lb|li|lui|lw|mfc0|move|mul|mulo|mulou|mult|mtc0|neg|negu|nomove|nor|not|or|ori|rem|remu|rol|ror|sb|seq|sge|sgeu|sgt|sgtu|sle|sleu|sne|sll|sllv|slt|slti|sltu|sltiu|sra|srav|srl|srlv|sub|subu|sw|syscall|xor|xori
