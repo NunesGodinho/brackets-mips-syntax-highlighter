@@ -146,7 +146,7 @@ myByte8:        .8byte      4
 		quit_sum_loop_2:
 		#print endline
 		la $a0, endl
-		syscall		
+		syscall
 	
 	#store $t1 into sum
 	la $t2, sumEvens
