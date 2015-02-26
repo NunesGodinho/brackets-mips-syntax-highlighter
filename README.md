@@ -3,6 +3,8 @@ This is still a work in progress. Hopefully to be done fairly quickly. Apparentl
 
 Feel free to jump on board and help get this little extention complete!
 
+#[Download Installer Here](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
+
 ##Please let me know if you have any issues, suggestions, or anything of the nature [here] (https://github.com/naphipps/brackets-mips-syntax-highlighter/issues). Thank you! :D
 
 #IGNORE EVERYTHING BELOW
