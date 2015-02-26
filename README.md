@@ -5,9 +5,11 @@ Feel free to jump on board and help get this little extention complete!
 
 #[Download Installer Now! :D](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
 (In case it prompts about replacing the current files: Yes. Always replace them.)
+===========================
 
 ##Please let me know if you have any issues, suggestions, or anything of the nature [here] (https://github.com/naphipps/brackets-mips-syntax-highlighter/issues). Thank you! :D
 
+<!--
 #IGNORE EVERYTHING BELOW
 ##That is for when I finish the syntax highlighter
 
@@ -29,3 +31,4 @@ And that's all. Now you can enjoy syntax highlighting for MIPS Assembly files in
 If MIPS is not set automatically as default language for .s and .sx files, click on the current language at bottom right of Brackets window and select MIPS in the dropdown menu.
 
 This extension is (NOT yet) registered @ [Brackets Extension Registry](https://brackets-registry.aboutweb.com).
+-->
