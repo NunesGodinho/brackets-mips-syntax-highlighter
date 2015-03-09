@@ -25,7 +25,7 @@ Please let me know if you have any issues, suggestions, or anything of the natur
 ***
 
 ##Old Versions Below:
-- [Installer for v0.0.1](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
+- [Download v0.0.1](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
 
 <!--
 #IGNORE EVERYTHING BELOW
