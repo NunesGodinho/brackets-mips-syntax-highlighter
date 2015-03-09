@@ -15,14 +15,9 @@ CodeMirror.defineMode('mips', function() {
     
     var myDefinitions = /\.([248]?byte|a(ent|lias|lign|sciiz|scii|sm0)|b(gnb)|c(omm|app|padd|pload|plocal|prestore|preturn|psetup)|d(ata|ouble|word)|e(ndr|ndb|nd|nt|xtern|rr)|f(ile|loat|mask|rame)|g(jaldef|jallive|jrlive|lobl|pword)|h(alf)|k(data|text)|l(ab|comm|ivereg|oc)|m(ask)|n(ada|oalias|op)|o(ption|rigin)|r(epeat|data)|s(data|ection|et|ize|pace|truct)|t(ext|ype)|v(erstamp|reg)|w(eakext|ord))\b/i;
     
-    var myText  = /\.t(ext)/;
-    var inside_dotText = false;
-    var myData  = /\.d(ata)/;
-    var inside_dotData = false;
-    
     var myRegisters = /\$(a([0-3]|t)|f(p)|g(p)|k([0-1])|r(a)|s([0-7]|p)|t(\d)|v([0-1])|zero)\b/i;
     
-    var myKeywords = /\b(a(bs|ddiu|ddi|ddu|dd|ndi|nd)|b(czt|czf|eqz|eq|gezal|gez|geu|ge|gtu|gtz|gt|leu|lez|le|ltu|lt|nez|ltzal|ltz|ne|qez|)|c(lo|lz)|d(ivu|iv)|e(ret)|j(alr|al|r|)|l(a|bu|b|d|hu|h|i|ui|wcl|wl|wr|w)|m(addu|add|fc0|ove|sub|ulou|ulo|ult|ul|tc0)|n(egu|eg|omove|or|ot)|o(ri|r)|r(emu|em|ol|or)|s(b|c|dcl|d|eq|geu|ge|gtu|gt|h|leu|le|ne|llv|ll|ltiu|lti|ltu|lt|rav|ra|rlv|rl|ubu|ub|wcl|wr|wl|w|yscall)|t(eqi|eq|geu|geiu|gei|ge|ltu|ltiu|lti|lt)|u(lhu|lh|lw|sc|sh|sw)|x(ori|or))\b/i;
+    var myKeywords = /\b(a(bs|ddiu|ddi|ddu|dd|ndi|nd)|b(czt|czf|eqz|eq|gezal|gez|geu|ge|gtu|gtz|gt|leu|lez|le|ltu|lt|nez|ltzal|ltz|ne|qez|)|c(lo|lz)|d(ivu|iv)|e(ret)|j(alr|al|r|)|l(a|bu|b|d|hu|h|i|ui|wcl|wl|wr|w)|m(addu|add|fc0|flo|fhi|ove|sub|ulou|ulo|ult|ul|tc0)|n(egu|eg|omove|or|ot)|o(ri|r)|r(emu|em|ol|or)|s(b|c|dcl|d|eq|geu|ge|gtu|gt|h|leu|le|ne|llv|ll|ltiu|lti|ltu|lt|rav|ra|rlv|rl|ubu|ub|wcl|wr|wl|w|yscall)|t(eqi|eq|geu|geiu|gei|ge|ltu|ltiu|lti|lt)|u(lhu|lh|lw|sc|sh|sw)|x(ori|or))\b/i;
     
     var myNumbers = /\b([\da-f]+h|[0-7]+o|[0-1]+b|\d+)\b/i;
     
@@ -67,21 +62,10 @@ CodeMirror.defineMode('mips', function() {
                 
                 if (stream.eatWhile(/\w/)){
                     thisItem = stream.current();
-                    if (myText.test(thisItem)){
-                        inside_dotData = false;
-                        inside_dotText = true;
+                    if (myDefinitions.test(thisItem)){
                         return 'def';
                     }
-                    else if (myData.test(thisItem)){
-                        inside_dotText = false;
-                        inside_dotData = true;
-                        return 'def';
-                    }
-                    else if (myDefinitions.test(thisItem)){
-                        return 'def';
-                        //return 'keyword'; //this is for next update
-                    }
-                    return 'null';
+                    return null;
                     
                 }
                 
@@ -100,13 +84,6 @@ CodeMirror.defineMode('mips', function() {
             else {
                 stream.next();
             }
-            
-            if (inside_dotData && stream.eat(':')){
-                return 'variable';
-            }
-            if (inside_dotText && stream.eat(':')){
-                //return 'def'; //this is for next update
-            }//*/
             
             return null;
             

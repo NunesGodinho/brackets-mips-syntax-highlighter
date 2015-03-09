@@ -3,10 +3,14 @@ This is still a work in progress. Hopefully to be done fairly quickly. Apparentl
 
 Feel free to jump on board and help get this little extention complete!
 
-#[Download Installer for v0.0.1 Now! :D](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
-#####(In case it prompts about replacing the current files: Yes. Always replace them.)
 
 Please let me know if you have any issues, suggestions, or anything of the nature [here] (https://github.com/naphipps/brackets-mips-syntax-highlighter/issues). Thank you! :D
+
+#[Installer for v0.0.2](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.2.dmg?raw=true)
+###What's New:
+- more instructions are now supported
+
+#####(In case it prompts about replacing the current files: Yes. Always replace them.)
 
 ##Curious about my future goals?!
 ####These things below are coming soon!
@@ -15,6 +19,9 @@ Please let me know if you have any issues, suggestions, or anything of the natur
 - Add error checking
  
 (Mainly, my goal is to make the highlighter make sense visually. I haven't been satisfied with any mips assembly highlighter. Thus, I'm making my own.)
+
+##Old Versions Below:
+- [Installer for v0.0.1](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
 
 <!--
 #IGNORE EVERYTHING BELOW
