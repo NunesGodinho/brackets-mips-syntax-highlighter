@@ -8,6 +8,7 @@ Please let me know if you have any issues, suggestions, or anything of the natur
 ***
 
 #[Download v0.0.2](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.2.dmg?raw=true)
+*Only Mac installers are available currently.*
 ###What's New:
 - more instructions are now supported
 
