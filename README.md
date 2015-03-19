@@ -12,7 +12,7 @@ Please let me know if you have any issues, suggestions, or anything of the natur
 ###What's New:
 - more instructions are now supported
 
-#####(In case it prompts about replacing the current files: Yes. Always replace them.)
+**(In case it prompts about replacing the current files: Yes. Always replace them.)**
 ***
 
 ##Curious about my future goals?!
