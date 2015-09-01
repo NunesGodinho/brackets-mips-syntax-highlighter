@@ -7,7 +7,7 @@ Feel free to jump on board and help get this little extention complete!
 Please let me know if you have any issues, suggestions, or anything of the nature [here] (https://github.com/naphipps/brackets-mips-syntax-highlighter/issues). Thank you! :D
 ***
 
-#[Download v0.0.2](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.2.dmg?raw=true)
+#[Download v0.0.3](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.3.dmg?raw=true)
 *Only Mac installers are available currently.*
 ###What's New:
 - more instructions are now supported
@@ -26,6 +26,7 @@ Please let me know if you have any issues, suggestions, or anything of the natur
 ***
 
 ##Old Versions Below:
+- [Download v0.0.2](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.2.dmg?raw=true)
 - [Download v0.0.1](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.1.dmg?raw=true)
 
 <!--
