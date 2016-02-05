@@ -7,6 +7,7 @@ Please let me know if you have any issues, suggestions, or anything of the natur
 #[Download v0.0.3](https://github.com/naphipps/brackets-mips-syntax-highlighter/blob/master/Installer/MIPS%20Syntax%20Highlighter%20for%20Brackets%20v0.0.3.dmg?raw=true)
 
 **_NOTE:_ _*If you're coming from the Brackets Extension Manager, install the "mode" ONLY via the installer above.*_**
+
 *Only Mac installers are available currently. In case it prompts about replacing the current files: Yes. Always replace them.*
 ####What's New:
 - more instructions are now supported
