@@ -2,7 +2,7 @@
     "name": "mips",
     "title": "MIPS Assembly Syntax Highlighter",
     "version": "0.0.3",
-    "description": "Syntax highlighting support for MIPS assembly files (.s)",
+    "description": "Syntax highlighting support for MIPS assembly files (.s) Use the manual install.",
     "repository": 
     {
         "type": "git",
