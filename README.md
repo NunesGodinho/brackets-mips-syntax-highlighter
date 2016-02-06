@@ -6,10 +6,10 @@ This is a Brackets extension adding syntax highlighting for MIPS Assembly files 
 
 ***
 
-##How to install this extension
+## How to install this extension
 The extension can be directly installed using the Extension Manager of Brackets.
 
-1. File -> Extension Manager 
+1. File -> Extension Manager
 2. Search for MIPS
 3. Click install on MIPS Assembly Syntax Highlighter extension
 
