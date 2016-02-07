@@ -1,6 +1,6 @@
 # MIPS Assembly Syntax Highlighter for [Brackets](http://brackets.io)
 
-[Brackets](http://brackets.io) is a modern open-source code editor that's built in HTML, CSS and JavaScript. That is, a modern code editor for web designers and front-end developers.
+[Brackets](http://brackets.io) is a modern open-source code editor that's built in HTML, CSS and JavaScript.
 
 This is a Brackets extension adding syntax highlighting for MIPS Assembly files (.s and .sx files).
 
