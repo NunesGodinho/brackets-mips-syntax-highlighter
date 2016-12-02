@@ -65,7 +65,7 @@ CodeMirror.defineMode('mips64', function() {
                 }
                 
             }
-            else if (stream.eat('#')){
+            else if (stream.eat(';')){
                 stream.skipToEnd();
                 return 'comment';
             }
@@ -91,7 +91,7 @@ CodeMirror.defineMode('mips64', function() {
                 }
                 
             }
-            else if(stream.eat('$')){
+            else if(stream.eat('r')){
                 
                 if(stream.eatWhile(/\w/)){
                     thisItem = stream.current();
