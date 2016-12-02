@@ -1,15 +1,15 @@
 # MIPS Assembly Syntax Highlighter for [Brackets](http://brackets.io)
 
-[Brackets](http://brackets.io) is a modern open-source code editor that's built in HTML, CSS and JavaScript.
+[Brackets](http://brackets.io) is a modern open-source code editor for HTML, CSS and JavaScript that's built in HTML, CSS and JavaScript. That is, a modern code editor for web designers and front-end developers.
 
 This is a Brackets extension adding syntax highlighting for MIPS Assembly files (.s and .sx files).
 
 ***
 
-## How to install this extension
+##How to install this extension
 The extension can be directly installed using the Extension Manager of Brackets.
 
-1. File -> Extension Manager
+1. File -> Extension Manager 
 2. Search for MIPS
 3. Click install on MIPS Assembly Syntax Highlighter extension
 

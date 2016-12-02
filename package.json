@@ -1,27 +1,27 @@
 {
-    "name": "mips",
-    "title": "MIPS Assembly Syntax Highlighter",
-    "version": "0.0.4",
+    "name": "mips64",
+    "title": "MIPS 64 Assembly Syntax Highlighter",
+    "version": "0.0.1",
     "description": "Syntax highlighting support for MIPS assembly files (.s, .sx)",
     "repository": 
     {
         "type": "git",
-        "url": "https://github.com/naphipps/brackets-mips-syntax-highlighter"
+        "url": "https://github.com/NunesGodinho/brackets-mips-syntax-highlighter"
     },
     "keywords": [
-        "mips",
+        "mips64",
         "assembly",
         "language",
         "syntax",
         "highlighting"
     ],
-    "author": "Nathan Phipps",
+    "author": "António Godinho",
     "license": "MIT",
     "bugs": 
     {
-        "url": "https://github.com/naphipps/brackets-mips-syntax-highlighter/issues"
+        "url": "https://github.com/NunesGodinho/brackets-mips-syntax-highlighter/issues"
     },
-    "homepage": "https://github.com/naphipps/brackets-mips-syntax-highlighter",
+    "homepage": "https://github.com/NunesGodinho/brackets-mips-syntax-highlighter",
     "engines": {
         "brackets": ">=0.24.0"
     }
